@@ -26,12 +26,15 @@
     top: 100%;
     width: 60vw;
 }
+.container__botao{
+    display: none;
+}
 .container__botao:checked~.lista-menu{
     display: block;
     
 }
 .lista-menu__titulo{
-    font-family: "Poppins", sans-serif;
+    font-family: var(--fonte-principal);
     line-height: 24px;
     font-size: 16px;
     color: var(--laranja);
@@ -43,7 +46,7 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400px;
     line-height: 24px ;
