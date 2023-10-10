@@ -7,6 +7,7 @@
 .topicos__titulo{
     color: var(--branco);
     font-weight: 300;
+    font-family: var(--fonte-principal);
 }
 .topicos__lista{
     display: flex;
@@ -23,4 +24,24 @@
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
+}
+
+@media screen and (min-width: 1024px){
+    .topicos__titulo{
+        font-size: 24px;
+        font-weight: 300;
+    }
+    .topicos__link{
+        font-size: 24px;
+        font-weight: 300;
+    }
+}
+@media screen and (min-width: 1728px) {
+    .topicos{
+        padding:  3em 30vw;
+    }
+    .topicos__titulo{
+        padding-bottom: 1em;
+        font-size: 32px;
+    }
 }

@@ -6,4 +6,48 @@ hr{
     padding: 1em;
     font-size: 16px;
     color: var(--azul);
+    
+}
+.lista__rodape{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape{
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .lista__rodape{
+        display: block;
+    }
+    .lista__rodape-item{
+        display: flex;
+        align-items: center;
+        margin: 0.5em 0;
+      
+    }
+    .lista__rodape-link{
+        text-decoration: none;
+        color: var(--cinza);
+        margin-left: 0.5em;
+    }
+    .lista__rodape-titulo{
+        font-size: 14px;
+        font-weight: 400;
+        color: var(--cinzaClaro);
+        text-transform: uppercase;
+    }
+    .rodape__titulo{
+        font-size: 24px;
+    }
+}
+@media screen and (min-width: 1728px) {
+    .lista__rodape{
+        border-left: 1px solid var(--cinzaClaro);
+        padding-left: 1em;
+    }
+    .rodape{
+        padding: 3em 0;
+    }
 }

@@ -15,6 +15,10 @@
     --azul: #002F52;
     --fonte-header: 'Josefin sans', sans-serif;
     --preto: #000000;
+    --cinza: #474646;
+    --cinzaClaro: #858585;
+
+
 }
 *{
     margin: 0;
